@@ -55,5 +55,13 @@ def update(request,id):
         return redirect("/show")
     return render(request,'edit.html',{'employee':employee})
 
+<<<<<<< HEAD
 def hlo(request):
     return HttpResponse("HEY,Everyone")
+=======
+def desk(request):
+    return HttpResponse("hello everyone")
+
+def abhi(request):
+    return HttpResponse("hello")
+>>>>>>> c0abe7571f033c13de9eca00d3e9ec5d3c85ce4a
