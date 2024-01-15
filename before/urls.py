@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .views import backend,create,emp,edit,show,destroy,update,desk
+from .views import backend,create,emp,edit,show,destroy,update,desk,abhi
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -12,5 +12,6 @@ urlpatterns = [
     path('update/<int:id>',update),
     path('delete/<int:id>',destroy),
     path("desk/",desk),
+    path("abhi/",abhi),
     
 ]

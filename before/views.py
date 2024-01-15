@@ -58,3 +58,5 @@ def update(request,id):
 def desk(request):
     return HttpResponse("hello everyone")
 
+def abhi(request):
+    return HttpResponse("hello")
