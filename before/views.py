@@ -55,4 +55,5 @@ def update(request,id):
         return redirect("/show")
     return render(request,'edit.html',{'employee':employee})
 
-
+def hlo(request):
+    return HttpResponse("HEY,Everyone")
